@@ -12,8 +12,9 @@ R_Assignment_MF.Rmd
 R_Assignment_MF.html
 
 
-I called snp_position.txt --> snp.mf
-I called fang_et_al.txt--> fang.mf
+#I called snp_position.txt --> snp.mf
+
+#I called fang_et_al.txt--> fang.mf
 
 #Files produced form Data processing are contained in the folder "Data_processing"
 
