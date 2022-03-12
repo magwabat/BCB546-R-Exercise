@@ -1,5 +1,4 @@
 # BCB546-R-Assignment
-R_Assignment
 
 
 You can view my assignment in R_Markdown.md or R_Markdown.html 
@@ -7,9 +6,11 @@ You can view my assignment in R_Markdown.md or R_Markdown.html
 This is my R script:
 R_Assignment_Script.R
 
+
 This is my R scripT:
 R_Assignment_MF.Rmd
 R_Assignment_MF.html
+
 
 I called snp_position.txt --> snp.mf
 I called fang_et_al.txt--> fang.mf
