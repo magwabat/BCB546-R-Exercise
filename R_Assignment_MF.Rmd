@@ -1,4 +1,6 @@
 ---
+
+# you may want to add your name here and document title
 output:
   html_document: default
   pdf_document: default
@@ -27,7 +29,7 @@ snp.mf <- read.delim ("C:/Users/mfakude/OneDrive - Iowa State University/Documen
 head(fang.mf) #shows first 6 rows
 tail(fang.mf) #shows last 6 rows
 dim(fang.mf) #returns the dimensions of data frame (number of rows and number of columns)
-nrow(fang.mf) #number of rows
+nrow(fang.mf) #number of rows # Is this not a repetition of `dim`? 
 ncol(fang.mf) #number of columns
 str(fang.mf) #structure of data frame 
 names(fang.mf) #shows the names attribute for a data frame, which gives the column names
@@ -221,7 +223,7 @@ mutate_Group %>% group_by(Group) %>%  count(Allele) %>%
 ggsave("./Data_visualization/Ratio of zygosity and missing data.png")
 ```
 #3.My_plot_ Plot graph of proprotion of homozygotes by Group and save it
-
+# is this your own or is aprt of the requirement?
 ```{r}
 color2 <- brewer.pal(4, "Spectral")
 mutate_Group %>% filter(Allele == "Homozygote") %>% group_by(Group) %>%  count(value) %>% 
@@ -232,4 +234,5 @@ mutate_Group %>% filter(Allele == "Homozygote") %>% group_by(Group) %>%  count(v
   ylab('Ratio') +
   theme_bw()
 ggsave("./Data_visualization/my_plot.png")
+# Isnt the file pathway supposed to be "absolute" 
 ```
