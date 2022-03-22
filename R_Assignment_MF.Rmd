@@ -46,7 +46,7 @@ names(snp.mf) #shows the names attribute for a data frame, which gives the colum
 sapply(snp.mf, class) #shows the class of each column in the data frame
 ls(fang.mf) #shows objects in the objects in the frame
 ```
-
+# me
 **Data Processing** 
 
 #Extract 3 columns (SNP_ID, Chromosome, Position) from snp.mf file and create a new file named snp_extracted.
